@@ -194,9 +194,6 @@ Thanks for following through this guide, I hope you found it useful. Good luck w
 ### Description
 The Pet_detector.py script is an example application of using object detection on the API to alert users when a certain object is detected. I have two indoor-outdoor pets at my parents' home: a cat and a dog. They frequently stand at the door and wait patiently to be let inside or outside. This pet detector uses the TensorFlow MobileNet-SSD model to detect when they are near the door. It defines two regions in the image, an "inside" region and an "outside" region. If the pet is detected in either region for at least 10 consecutive frames, the script uses Twilio to send my phone a text message.
 
-Here's a YouTube video demonstrating the pet detector and explaining how it works!
-
-[![Link to my YouTube video!](https://github.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi/blob/master/doc/PetDetector_Video.PNG)](https://youtu.be/gGqVNuYol6o)
 
 ### Usage
 Run the pet detector by downloading Pet_detector.py to your /object_detection directory and issuing:
